@@ -1,0 +1,28 @@
+# === FRONTEND IGNORES ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+frontend/**/*.sw?
+
+# === BACKEND IGNORES ===
+backend/node_modules/
+backend/uploads/
+backend/.env
+backend/.DS_Store
+backend/**/*.sw?
+
+# === COMMON IGNORE PATTERNS ===
+*.log
+*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+**/*.sw?
+.DS_Store
+
+# IDE and Editor folders
+.vscode/*
+!.vscode/extensions.json
+.idea
